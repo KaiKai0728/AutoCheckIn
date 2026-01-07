@@ -13,10 +13,10 @@
 ## 🛠️ 如何開始使用 (How to Use)
 
 ### 1. 下載程式
-前往右側的 [Releases](https://github.com/KaiKai0728/AutoCheckIn/releases) 頁面，下載最新的 `AutoCheckInV2.exe`。
+前往右側的 [Releases](https://github.com/KaiKai0728/AutoCheckIn/releases) 頁面，下載最新的 `AutoCheckIn.exe`。
 
 ### 2. 初始化設定
-* 雙擊執行 `AutoCheckInV2.exe`。
+* 雙擊執行 `AutoCheckIn.exe`。
 * 程式會自動在同資料夾產生一個 `config.txt`。
 * 用記事本打開 `config.txt`，填入你的 ERP **帳號**與**密碼**。
 * `測試模式=否` (若要正式打卡請改為否)。
@@ -25,13 +25,13 @@
 ### 3. 設定自動觸發 (重要！)
 建議搭配 Windows **「工作排程器」** 設定：
 * **觸發程序**：設定為「工作站鎖定時」(當你按下 Win+L 鎖屏離開位子時觸發)。
-* **操作**：啟動程式，選擇 `AutoCheckInV2.exe`。
+* **操作**：啟動程式，選擇 `AutoCheckIn.exe`。
 * **條件**：確保勾選「只有在網路連線時才啟動」。
 
 ---
 
 ## 📁 檔案說明
-* `AutoCheckInV2.py`: 程式原始碼。
+* `AutoCheckIn.py`: 程式原始碼。
 * `config.txt`: 個人設定檔（執行後產生）。
 * `punch_history.txt`: 打卡紀錄 Log。
 
